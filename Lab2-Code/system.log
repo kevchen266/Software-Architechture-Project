@@ -1,0 +1,318 @@
+Feb 11, 2024 3:38:58 PM SystemLogger update
+INFO: 
+Student Registration System
+
+Feb 11, 2024 3:38:58 PM SystemLogger update
+INFO: 1) List all students
+Feb 11, 2024 3:38:58 PM SystemLogger update
+INFO: 2) List all courses
+Feb 11, 2024 3:38:58 PM SystemLogger update
+INFO: 3) List students who registered for a course
+Feb 11, 2024 3:38:58 PM SystemLogger update
+INFO: 4) List courses a student has registered for
+Feb 11, 2024 3:38:58 PM SystemLogger update
+INFO: 5) List courses a student has completed
+Feb 11, 2024 3:38:58 PM SystemLogger update
+INFO: 6) Register a student for a course
+Feb 11, 2024 3:38:58 PM SystemLogger update
+INFO: 7) Check student course conflict
+Feb 11, 2024 3:38:58 PM SystemLogger update
+INFO: x) Exit
+Feb 11, 2024 3:38:58 PM SystemLogger update
+INFO: 
+Enter your choice and press return >> 
+Feb 11, 2024 3:39:05 PM SystemLogger update
+INFO: 
+
+Feb 11, 2024 3:39:05 PM SystemLogger update
+INFO: G00123456 Carson Kit CS 1 CS112 CS211 CS332 CS421
+G00123432 Smith John ECE 0 EE112 EE211 CS421 EE432
+G45643133 Kenton Sam IT 3 IT112 IT211
+G01234567 Boone Dan MBA 2 BB114 CS211 IT492 CS412
+G90123456 Crockett Jack CS 2 CS112 CS211 CS332 CS42
+G12998191 Wetzle Tom CS 3 CS112 CS211 CS332
+G21231422 Lewis Meriweather SE 1 EN121 EE211 BB222 CS421 IT492
+G89012345 Glass Hugh MBA 2 EN121 IT211
+Feb 11, 2024 3:39:05 PM SystemLogger update
+INFO: 
+Student Registration System
+
+Feb 11, 2024 3:39:05 PM SystemLogger update
+INFO: 1) List all students
+Feb 11, 2024 3:39:05 PM SystemLogger update
+INFO: 2) List all courses
+Feb 11, 2024 3:39:05 PM SystemLogger update
+INFO: 3) List students who registered for a course
+Feb 11, 2024 3:39:05 PM SystemLogger update
+INFO: 4) List courses a student has registered for
+Feb 11, 2024 3:39:05 PM SystemLogger update
+INFO: 5) List courses a student has completed
+Feb 11, 2024 3:39:05 PM SystemLogger update
+INFO: 6) Register a student for a course
+Feb 11, 2024 3:39:05 PM SystemLogger update
+INFO: 7) Check student course conflict
+Feb 11, 2024 3:39:05 PM SystemLogger update
+INFO: x) Exit
+Feb 11, 2024 3:39:05 PM SystemLogger update
+INFO: 
+Enter your choice and press return >> 
+Feb 11, 2024 3:39:19 PM SystemLogger update
+INFO: 
+
+Feb 11, 2024 3:39:19 PM SystemLogger update
+INFO: G00123456 Carson Kit CS 1 CS112 CS211 CS332 CS421
+G00123432 Smith John ECE 0 EE112 EE211 CS421 EE432
+G45643133 Kenton Sam IT 3 IT112 IT211
+G01234567 Boone Dan MBA 2 BB114 CS211 IT492 CS412
+G90123456 Crockett Jack CS 2 CS112 CS211 CS332 CS42
+G12998191 Wetzle Tom CS 3 CS112 CS211 CS332
+G21231422 Lewis Meriweather SE 1 EN121 EE211 BB222 CS421 IT492
+G89012345 Glass Hugh MBA 2 EN121 IT211
+Feb 11, 2024 3:39:19 PM SystemLogger update
+INFO: 
+Student Registration System
+
+Feb 11, 2024 3:39:19 PM SystemLogger update
+INFO: 1) List all students
+Feb 11, 2024 3:39:19 PM SystemLogger update
+INFO: 2) List all courses
+Feb 11, 2024 3:39:19 PM SystemLogger update
+INFO: 3) List students who registered for a course
+Feb 11, 2024 3:39:19 PM SystemLogger update
+INFO: 4) List courses a student has registered for
+Feb 11, 2024 3:39:19 PM SystemLogger update
+INFO: 5) List courses a student has completed
+Feb 11, 2024 3:39:19 PM SystemLogger update
+INFO: 6) Register a student for a course
+Feb 11, 2024 3:39:19 PM SystemLogger update
+INFO: 7) Check student course conflict
+Feb 11, 2024 3:39:19 PM SystemLogger update
+INFO: x) Exit
+Feb 11, 2024 3:39:19 PM SystemLogger update
+INFO: 
+Enter your choice and press return >> 
+Feb 11, 2024 3:39:22 PM SystemLogger update
+INFO: 
+
+Feb 11, 2024 3:39:22 PM SystemLogger update
+INFO: G00123456 Carson Kit CS 1 CS112 CS211 CS332 CS421
+G00123432 Smith John ECE 0 EE112 EE211 CS421 EE432
+G45643133 Kenton Sam IT 3 IT112 IT211
+G01234567 Boone Dan MBA 2 BB114 CS211 IT492 CS412
+G90123456 Crockett Jack CS 2 CS112 CS211 CS332 CS42
+G12998191 Wetzle Tom CS 3 CS112 CS211 CS332
+G21231422 Lewis Meriweather SE 1 EN121 EE211 BB222 CS421 IT492
+G89012345 Glass Hugh MBA 2 EN121 IT211
+Feb 11, 2024 3:39:22 PM SystemLogger update
+INFO: 
+Student Registration System
+
+Feb 11, 2024 3:39:22 PM SystemLogger update
+INFO: 1) List all students
+Feb 11, 2024 3:39:22 PM SystemLogger update
+INFO: 2) List all courses
+Feb 11, 2024 3:39:22 PM SystemLogger update
+INFO: 3) List students who registered for a course
+Feb 11, 2024 3:39:22 PM SystemLogger update
+INFO: 4) List courses a student has registered for
+Feb 11, 2024 3:39:22 PM SystemLogger update
+INFO: 5) List courses a student has completed
+Feb 11, 2024 3:39:22 PM SystemLogger update
+INFO: 6) Register a student for a course
+Feb 11, 2024 3:39:22 PM SystemLogger update
+INFO: 7) Check student course conflict
+Feb 11, 2024 3:39:22 PM SystemLogger update
+INFO: x) Exit
+Feb 11, 2024 3:39:22 PM SystemLogger update
+INFO: 
+Enter your choice and press return >> 
+Feb 11, 2024 3:39:38 PM SystemLogger update
+INFO: 
+Enter student ID and press return >> 
+Feb 11, 2024 3:39:39 PM SystemLogger update
+INFO: 
+Enter course ID and press return >> 
+Feb 11, 2024 3:39:40 PM SystemLogger update
+INFO: 
+Enter course section and press return >> 
+Feb 11, 2024 3:39:41 PM SystemLogger update
+INFO: 
+
+Feb 11, 2024 3:39:41 PM SystemLogger update
+INFO: Successful! (Currently 1)
+Feb 11, 2024 3:39:41 PM SystemLogger update
+INFO: 
+Student Registration System
+
+Feb 11, 2024 3:39:41 PM SystemLogger update
+INFO: 1) List all students
+Feb 11, 2024 3:39:41 PM SystemLogger update
+INFO: 2) List all courses
+Feb 11, 2024 3:39:41 PM SystemLogger update
+INFO: 3) List students who registered for a course
+Feb 11, 2024 3:39:41 PM SystemLogger update
+INFO: 4) List courses a student has registered for
+Feb 11, 2024 3:39:41 PM SystemLogger update
+INFO: 5) List courses a student has completed
+Feb 11, 2024 3:39:41 PM SystemLogger update
+INFO: 6) Register a student for a course
+Feb 11, 2024 3:39:41 PM SystemLogger update
+INFO: 7) Check student course conflict
+Feb 11, 2024 3:39:41 PM SystemLogger update
+INFO: x) Exit
+Feb 11, 2024 3:39:41 PM SystemLogger update
+INFO: 
+Enter your choice and press return >> 
+Feb 11, 2024 3:39:59 PM SystemLogger update
+INFO: 
+Enter student ID and press return >> 
+Feb 11, 2024 3:40:00 PM SystemLogger update
+INFO: 
+Enter course ID and press return >> 
+Feb 11, 2024 3:40:02 PM SystemLogger update
+INFO: 
+Enter course section and press return >> 
+Feb 11, 2024 3:40:03 PM SystemLogger update
+INFO: 
+
+Feb 11, 2024 3:40:03 PM SystemLogger update
+INFO: Successful! (Currently 2)
+Feb 11, 2024 3:40:03 PM SystemLogger update
+INFO: 
+Student Registration System
+
+Feb 11, 2024 3:40:03 PM SystemLogger update
+INFO: 1) List all students
+Feb 11, 2024 3:40:03 PM SystemLogger update
+INFO: 2) List all courses
+Feb 11, 2024 3:40:03 PM SystemLogger update
+INFO: 3) List students who registered for a course
+Feb 11, 2024 3:40:03 PM SystemLogger update
+INFO: 4) List courses a student has registered for
+Feb 11, 2024 3:40:03 PM SystemLogger update
+INFO: 5) List courses a student has completed
+Feb 11, 2024 3:40:03 PM SystemLogger update
+INFO: 6) Register a student for a course
+Feb 11, 2024 3:40:03 PM SystemLogger update
+INFO: 7) Check student course conflict
+Feb 11, 2024 3:40:03 PM SystemLogger update
+INFO: x) Exit
+Feb 11, 2024 3:40:03 PM SystemLogger update
+INFO: 
+Enter your choice and press return >> 
+Feb 11, 2024 3:40:10 PM SystemLogger update
+INFO: 
+Enter student ID and press return >> 
+Feb 11, 2024 3:40:11 PM SystemLogger update
+INFO: 
+Enter course ID and press return >> 
+Feb 11, 2024 3:40:13 PM SystemLogger update
+INFO: 
+Enter course section and press return >> 
+Feb 11, 2024 3:40:14 PM SystemLogger update
+INFO: 
+
+Feb 11, 2024 3:40:14 PM SystemLogger update
+INFO: Successful! (Currently 3)
+Feb 11, 2024 3:40:14 PM SystemLogger update
+INFO: 
+Student Registration System
+
+Feb 11, 2024 3:40:14 PM SystemLogger update
+INFO: 1) List all students
+Feb 11, 2024 3:40:14 PM SystemLogger update
+INFO: 2) List all courses
+Feb 11, 2024 3:40:14 PM SystemLogger update
+INFO: 3) List students who registered for a course
+Feb 11, 2024 3:40:14 PM SystemLogger update
+INFO: 4) List courses a student has registered for
+Feb 11, 2024 3:40:14 PM SystemLogger update
+INFO: 5) List courses a student has completed
+Feb 11, 2024 3:40:14 PM SystemLogger update
+INFO: 6) Register a student for a course
+Feb 11, 2024 3:40:14 PM SystemLogger update
+INFO: 7) Check student course conflict
+Feb 11, 2024 3:40:14 PM SystemLogger update
+INFO: x) Exit
+Feb 11, 2024 3:40:14 PM SystemLogger update
+INFO: 
+Enter your choice and press return >> 
+Feb 11, 2024 3:40:17 PM SystemLogger update
+INFO: 
+Enter student ID and press return >> 
+Feb 11, 2024 3:40:18 PM SystemLogger update
+INFO: 
+Enter course ID and press return >> 
+Feb 11, 2024 3:40:20 PM SystemLogger update
+INFO: 
+Enter course section and press return >> 
+Feb 11, 2024 3:40:22 PM SystemLogger update
+INFO: 
+
+Feb 11, 2024 3:40:22 PM SystemLogger update
+INFO: Successful! (Overbooked! Currently 4)
+Feb 11, 2024 3:40:22 PM SystemLogger update
+INFO: 
+Student Registration System
+
+Feb 11, 2024 3:40:22 PM SystemLogger update
+INFO: 1) List all students
+Feb 11, 2024 3:40:22 PM SystemLogger update
+INFO: 2) List all courses
+Feb 11, 2024 3:40:22 PM SystemLogger update
+INFO: 3) List students who registered for a course
+Feb 11, 2024 3:40:22 PM SystemLogger update
+INFO: 4) List courses a student has registered for
+Feb 11, 2024 3:40:22 PM SystemLogger update
+INFO: 5) List courses a student has completed
+Feb 11, 2024 3:40:22 PM SystemLogger update
+INFO: 6) Register a student for a course
+Feb 11, 2024 3:40:22 PM SystemLogger update
+INFO: 7) Check student course conflict
+Feb 11, 2024 3:40:22 PM SystemLogger update
+INFO: x) Exit
+Feb 11, 2024 3:40:22 PM SystemLogger update
+INFO: 
+Enter your choice and press return >> 
+Feb 11, 2024 3:40:46 PM SystemLogger update
+INFO: 
+
+Feb 11, 2024 3:40:46 PM SystemLogger update
+INFO: CS112 a M 1030 1200 Horton Introduction to Computer Programming (Overbooked! Currently 4)
+CS112 b W 1330 1400 Heyer Introduction to Computer Programming (Currently 0)
+CS112 c T 900 1230 Bealer Introduction to Computer Programming (Currently 0)
+CS211 a M 1100 1230 Kurtz Object-Oriented Programming (Currently 0)
+CS211 b T 930 1200 Worth Object-Oriented Programming (Currently 0)
+CS211 c F 1430 1600 Adams Object-Oriented Programming (Currently 0)
+CS421 a T 1100 1230 Schmidt Introduction to Software Engineering (Currently 0)
+CS421 b W 1100 1230 Stevens Introduction to Software Engineering (Currently 0)
+CS421 c F 1830 2000 Keys Introduction to Software Engineering (Currently 0)
+CS475 a M 900 1030 Delmar Concurrent and Distributed Software Systems (Currently 0)
+CS475 b T 900 1030 Faires Concurrent and Distributed Software Systems (Currently 0)
+CS475 c W 1830 2000 Weber Concurrent and Distributed Software Systems (Currently 0)
+SWE443 a T 430 700 Hughs Software Architecture (Currently 0)
+SWE443 b W 900 1030 Feiner Software Architecture (Currently 0)
+SWE443 c F 1200 1330 Morgan Software Architecture (Currently 0)
+Feb 11, 2024 3:40:46 PM SystemLogger update
+INFO: 
+Student Registration System
+
+Feb 11, 2024 3:40:46 PM SystemLogger update
+INFO: 1) List all students
+Feb 11, 2024 3:40:46 PM SystemLogger update
+INFO: 2) List all courses
+Feb 11, 2024 3:40:46 PM SystemLogger update
+INFO: 3) List students who registered for a course
+Feb 11, 2024 3:40:46 PM SystemLogger update
+INFO: 4) List courses a student has registered for
+Feb 11, 2024 3:40:46 PM SystemLogger update
+INFO: 5) List courses a student has completed
+Feb 11, 2024 3:40:46 PM SystemLogger update
+INFO: 6) Register a student for a course
+Feb 11, 2024 3:40:46 PM SystemLogger update
+INFO: 7) Check student course conflict
+Feb 11, 2024 3:40:46 PM SystemLogger update
+INFO: x) Exit
+Feb 11, 2024 3:40:46 PM SystemLogger update
+INFO: 
+Enter your choice and press return >> 
