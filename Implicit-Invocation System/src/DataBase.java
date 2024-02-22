@@ -1,3 +1,4 @@
+
 /**
  * @(#)DataBase.java
  *
@@ -5,21 +6,37 @@
  *
  */
 
-
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.rmi.Remote;
+import java.rmi.RemoteException;
+import java.rmi.server.UnicastRemoteObject;
 import java.util.ArrayList;
 
+interface IDataBase extends Remote {
+    ArrayList<Student> getAllStudentRecords() throws RemoteException;
+
+    ArrayList<Course> getAllCourseRecords() throws RemoteException;
+
+    Student getStudentRecord(String sSID) throws RemoteException;
+
+    Course getCourseRecord(String sCID, String sSection) throws RemoteException;
+
+    void makeARegistration(String sSID, String sCID, String sSection) throws RemoteException;
+}
 
 /**
- * A <code>DataBase</code> provides access to student and course data including reading the record
- * information and writing registration information. Note that current version of database doesn't
- * support writing student and course records to files. A shutdown means loss of all registration
+ * A <code>DataBase</code> provides access to student and course data including
+ * reading the record
+ * information and writing registration information. Note that current version
+ * of database doesn't
+ * support writing student and course records to files. A shutdown means loss of
+ * all registration
  * information.
  */
-public class DataBase {
+public class DataBase extends UnicastRemoteObject implements IDataBase {
 
     /**
      * A list of <code>Student</code> objects containing student records.
@@ -32,22 +49,24 @@ public class DataBase {
     protected ArrayList vCourse;
 
     /**
-     * Construct a database that provides access to student and course data. Initial data are filled
-     * with the records in the given student and course record files. At the time of creation, the
+     * Construct a database that provides access to student and course data. Initial
+     * data are filled
+     * with the records in the given student and course record files. At the time of
+     * creation, the
      * database does not contain any registration information.
      *
      * @param sStudentFileName the name of student record file
-     * @param sCourseFileName the name of course record file
+     * @param sCourseFileName  the name of course record file
      */
-    public DataBase(String sStudentFileName, String sCourseFileName) 
-           throws FileNotFoundException, IOException {
+    public DataBase(String sStudentFileName, String sCourseFileName)
+            throws FileNotFoundException, IOException, RemoteException {
         // Open the given student and course files.
         BufferedReader objStudentFile = new BufferedReader(new FileReader(sStudentFileName));
-        BufferedReader objCourseFile  = new BufferedReader(new FileReader(sCourseFileName));
+        BufferedReader objCourseFile = new BufferedReader(new FileReader(sCourseFileName));
 
         // Initialize student and course lists.
         this.vStudent = new ArrayList();
-        this.vCourse  = new ArrayList();
+        this.vCourse = new ArrayList();
 
         // Populate student and course lists.
         while (objStudentFile.ready()) {
@@ -65,7 +84,8 @@ public class DataBase {
     /**
      * Return all student records as a list.
      *
-     * @return an <code>ArrayList</code> of <code>Student</code> objects containing student records
+     * @return an <code>ArrayList</code> of <code>Student</code> objects containing
+     *         student records
      */
     public ArrayList getAllStudentRecords() {
         // Return the student list as it is.
@@ -75,7 +95,8 @@ public class DataBase {
     /**
      * Return all course records as a list.
      *
-     * @return an <code>ArrayList</code> of <code>Course</code> objects containing course records
+     * @return an <code>ArrayList</code> of <code>Course</code> objects containing
+     *         course records
      */
     public ArrayList getAllCourseRecords() {
         // Return the course list as it is.
@@ -85,14 +106,14 @@ public class DataBase {
     /**
      * Return a student record whose ID is equal to the given student ID.
      *
-     * @param  sSID a student ID to lookup
+     * @param sSID a student ID to lookup
      * @return a <code>Student</code> object whose ID is equal to <code>sSID</code>.
      *         <code>null</code> if not found
-     * @see    #getStudentName(String)
+     * @see #getStudentName(String)
      */
     public Student getStudentRecord(String sSID) {
         // Lookup and return the matching student record if found.
-        for (int i=0; i<this.vStudent.size(); i++) {
+        for (int i = 0; i < this.vStudent.size(); i++) {
             Student objStudent = (Student) this.vStudent.get(i);
             if (objStudent.match(sSID)) {
                 return objStudent;
@@ -106,13 +127,14 @@ public class DataBase {
     /**
      * Return the name of a student whose ID is equal to the given student ID.
      *
-     * @param  sSID a student ID to lookup
-     * @return a <code>String</code> representing student name. <code>null</code> if not found
-     * @see    #getStudentRecord(String)
+     * @param sSID a student ID to lookup
+     * @return a <code>String</code> representing student name. <code>null</code> if
+     *         not found
+     * @see #getStudentRecord(String)
      */
     public String getStudentName(String sSID) {
         // Lookup and return the matching student name if found.
-        for (int i=0; i<this.vStudent.size(); i++) {
+        for (int i = 0; i < this.vStudent.size(); i++) {
             Student objStudent = (Student) this.vStudent.get(i);
             if (objStudent.match(sSID)) {
                 return objStudent.getName();
@@ -126,15 +148,15 @@ public class DataBase {
     /**
      * Return a course record whose ID is equal to the given course ID.
      *
-     * @param  sCID a course ID to lookup
-     * @param  sSection a course section to lookup
+     * @param sCID     a course ID to lookup
+     * @param sSection a course section to lookup
      * @return a <code>Course</code> object whose ID is equal to <code>sCID</code>.
      *         <code>null</code> if not found
-     * @see    #getCourseName(String)
+     * @see #getCourseName(String)
      */
     public Course getCourseRecord(String sCID, String sSection) {
         // Lookup and return the matching course record if found.
-        for (int i=0; i<this.vCourse.size(); i++) {
+        for (int i = 0; i < this.vCourse.size(); i++) {
             Course objCourse = (Course) this.vCourse.get(i);
             if (objCourse.match(sCID, sSection)) {
                 return objCourse;
@@ -148,13 +170,14 @@ public class DataBase {
     /**
      * Return the name of a course whose ID is equal to the given course ID.
      *
-     * @param  sCID a course ID to lookup
-     * @return a <code>String</code> representing course name. <code>null</code> if not found
-     * @see    #getCourseRecord(String,String)
+     * @param sCID a course ID to lookup
+     * @return a <code>String</code> representing course name. <code>null</code> if
+     *         not found
+     * @see #getCourseRecord(String,String)
      */
     public String getCourseName(String sCID) {
         // Lookup and return the matching course name if found.
-        for (int i=0; i<this.vCourse.size(); i++) {
+        for (int i = 0; i < this.vCourse.size(); i++) {
             Course objCourse = (Course) this.vCourse.get(i);
             if (objCourse.match(sCID)) {
                 return objCourse.getName();
@@ -166,17 +189,18 @@ public class DataBase {
     }
 
     /**
-     * Make a registration. No conflict check is done before updating the database. Nothing happens
+     * Make a registration. No conflict check is done before updating the database.
+     * Nothing happens
      * if there is no matching student record and/or course record.
      *
-     * @param  sSID a student ID to register
-     * @param  sCID a course ID to register
-     * @param  sSection a course section to register
+     * @param sSID     a student ID to register
+     * @param sCID     a course ID to register
+     * @param sSection a course section to register
      */
     public void makeARegistration(String sSID, String sCID, String sSection) {
         // Find the student record and the course record.
         Student objStudent = this.getStudentRecord(sSID);
-        Course  objCourse  = this.getCourseRecord(sCID, sSection);
+        Course objCourse = this.getCourseRecord(sCID, sSection);
 
         // Make a registration.
         if (objStudent != null && objCourse != null) {

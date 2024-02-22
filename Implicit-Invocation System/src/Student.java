@@ -8,18 +8,19 @@
 
 import java.util.ArrayList;
 import java.util.StringTokenizer;
+import java.io.Serializable;
 
 
 /**
  * This class represents a record of a student. This class contains a student's personal information
  * and the course numbers the student has completed. This class is constructed from a field-oriented
- * and space-separated string. For the detailed format of such a string refer to 
+ * and space-separated string. For the detailed format of such a string refer to
  * {@link #Student(String)}.
  *
  * @author Jung Soo Kim
  * @version 1.0
  */
-public class Student {
+public class Student implements Serializable {
 
     /**
      * A string representing this student's ID.
@@ -47,7 +48,7 @@ public class Student {
      * <code>Course</code> objects representing records of registered courses.
      */
     protected ArrayList vRegistered;
-    
+
     /**
      * The balance in the student account.
      */
@@ -75,8 +76,8 @@ public class Student {
         this.sSID     = objTokenizer.nextToken();
         this.sName    = objTokenizer.nextToken();
         this.sName    = this.sName + " " + objTokenizer.nextToken();
-		this.sProgram = objTokenizer.nextToken();
-		this.iBalance = Integer.parseInt(objTokenizer.nextToken());
+        this.sProgram = objTokenizer.nextToken();
+        this.iBalance = Integer.parseInt(objTokenizer.nextToken());
 
         // Get the courses this student has completed.
         this.vCompleted = new ArrayList();
@@ -89,12 +90,12 @@ public class Student {
     }
 
     /**
-      * Test if the given string <code>sSID</code> is equal to the ID of this student record.
-      *
-      * @param  sSID a string representing a student ID
-      * @return <code>true</code> if <code>sSID</code> is equal to the ID of this student record
-      * @see    #match(String,String)
-      */
+     * Test if the given string <code>sSID</code> is equal to the ID of this student record.
+     *
+     * @param  sSID a string representing a student ID
+     * @return <code>true</code> if <code>sSID</code> is equal to the ID of this student record
+     * @see    #match(String,String)
+     */
     public boolean match(String sSID) {
         return this.sSID.equals(sSID);
     }
