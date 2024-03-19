@@ -4,7 +4,8 @@ Objective:
 The basic function of the current system is to register students for courses. The system provides 
 rudimentary functionality that supports student registration for courses and various queries, such as 
 listing the courses a student has registered for. 
-<img width="458" alt="image" src="https://github.com/kevchen266/Software-Architechture-Project/assets/72414426/d267a6c9-dbf8-4855-85a8-34fb9f70e6d5">
+
+<img width="322" alt="image" src="https://github.com/kevchen266/Software-Architechture-Project/assets/72414426/6ac00132-aedc-41b0-8ca9-9991071fbc90">
 
 
 System functionality is partitioned and encapsulated within each component. Components broadcast to 
