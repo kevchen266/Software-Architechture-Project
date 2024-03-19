@@ -6,7 +6,8 @@ The objective of this lab assignment is to gain practical experience in building
 system using Java Remote Method Invocation (RMI). A distributed software system is a model where
 components on networked computers interact by exchanging messages to achieve a common goal.
 
-![img.png](img.png)
+<img width="323" alt="image" src="https://github.com/kevchen266/Software-Architechture-Project/assets/72414426/022b59a4-766e-46df-82a8-de6fbd75162e">
+
 
 Architecture of the Distributed System
 Refer to Figure 1 for the architecture diagram of the current framework.
