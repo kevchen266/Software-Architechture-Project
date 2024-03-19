@@ -5,6 +5,10 @@ The basic function of the current system is to register students for courses. Th
 rudimentary functionality that supports student registration for courses and various queries, such as 
 listing the courses a student has registered for. 
 
+1.Compile all the files: In your CMD (command prompt) or shell, execute ---> javac *.java
+
+2.Exucute Main function In your CMD (command prompt) or shell, execute-->java SystemMain Students.txt Courses.txt
+
 <img width="322" alt="image" src="https://github.com/kevchen266/Software-Architechture-Project/assets/72414426/6ac00132-aedc-41b0-8ca9-9991071fbc90">
 
 
@@ -47,6 +51,4 @@ student for a course.
 
 • Students.txt: Text file that contains list of students.
 
-1.Compile all the files: In your CMD (command prompt) or shell, execute ---> javac *.java
 
-2.Exucute Main function In your CMD (command prompt) or shell, execute-->java SystemMain Students.txt Courses.txt
