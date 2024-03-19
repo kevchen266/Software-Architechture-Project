@@ -7,4 +7,5 @@ The basic function of the current system is to register students for courses. Th
 
 
 1.Compile all the files: In your CMD (command prompt) or shell, execute ---> javac *.java 
+
 2.Exucute Main function In your CMD (command prompt) or shell, execute-->java SystemMain Students.txt Courses.txt
