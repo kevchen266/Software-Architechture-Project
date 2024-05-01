@@ -28,8 +28,4 @@ Utilizing Java RMI, this architecture emphasizes a client-server model where rem
 
 ## Exploring the Projects
 Each project is housed in its specific folder within this repository. We encourage you to delve into each one to better understand the different architectural paradigms used in distributed systems. For further details, including how to set up and run each project, please refer to the respective project directories.
-
-- [Implicit Invocation System Folder](https://github.com/kevchen266/Software-Architechture-Project/ImplicitInvocation)
-- [Distributed Software Architecture Folder](https://github.com/kevchen266/Software-Architechture-Project/DistributedRMI)
-
 These projects are designed to provide insights into the architectural choices that can influence system design and functionality, offering a hands-on approach to learning about distributed systems.
