@@ -12,6 +12,7 @@ listing the courses a student has registered for.
 <img width="322" alt="image" src="https://github.com/kevchen266/Software-Architechture-Project/assets/72414426/6ac00132-aedc-41b0-8ca9-9991071fbc90">
 
 
+# Functionality
 System functionality is partitioned and encapsulated within each component. Components broadcast to 
 the event bus to request services, or listen on the bus to provide services to other components. Notice 
 that some components only send notifications (announce) to the bus, some only receive (listen), and 
