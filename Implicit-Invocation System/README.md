@@ -6,11 +6,14 @@ The basic function of the current system is to register students for courses. Th
 ### How to Run the System
 
 1. **Compile all the files**: In your CMD (command prompt) or shell, execute:
+``
 javac *.java
+``
 
 3. **Execute the Main function**: In your CMD (command prompt) or shell, execute:
+``
 java SystemMain Students.txt Courses.txt
-
+``
    
 <p align="center">
 <img src="https://github.com/kevchen266/Software-Architechture-Project/assets/72414426/6ac00132-aedc-41b0-8ca9-9991071fbc90" alt="System Image" width="644">
